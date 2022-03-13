@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main()
 {
-      int i;
-      for (i = 1; i <= 20; i++)
+      int i,num;
+      printf("Enter a number till uou want a even number\n");
+      scanf("%d", &num);
+      for (i = 1; i <= num; i++)
       {
             if (i % 2 == 0)
             {
