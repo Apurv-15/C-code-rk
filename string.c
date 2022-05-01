@@ -6,7 +6,7 @@ int main()
     printf("Enter string\n");
     gets(str);
     printf("sting is ");
-    putf(str);
+    puts(str);
     return 0;
     
 }
